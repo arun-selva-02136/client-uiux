@@ -4,7 +4,7 @@ pipeline {
         stage('clone') {
          
    steps {
-                git branch: 'master', url: 'https://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@github.com/Tekfilo-Innovations-Pvt-Ltd/account-service.git'
+                git branch: 'master', url: 'https://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@'
             }
         }
         stage('Build') { 
